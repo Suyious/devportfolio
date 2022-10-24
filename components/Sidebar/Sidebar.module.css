@@ -1,0 +1,32 @@
+.Sidebar_main{
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+}
+
+.Sidebar_main.left{
+    left: 0;
+    top: 0;
+}
+
+.Sidebar_main.right{
+    right: 0;
+    top: 0;
+}
+
+.Sidebar_wrapper{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sidebar_links{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.Sidebar_link{
+    padding: 0 2em;
+}

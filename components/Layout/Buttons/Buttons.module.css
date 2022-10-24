@@ -1,0 +1,25 @@
+.calltoAction_main{
+	border-radius: 5px;
+	display: inline-block;
+	margin: 1em 0.5em;
+}
+
+.calltoAction_link{
+	display: flex;
+	align-items: center;
+
+}
+
+.calltoAction_main.secondary{
+	border: 2px solid white;
+	transition: all 500ms ease;
+}
+
+.calltoAction_main.secondary:hover{
+	background: #fff;
+	color: var(--primary-blue);
+}
+
+.calltoAction_main.secondary:hover svg path{
+	fill: var(--primary-blue);
+}

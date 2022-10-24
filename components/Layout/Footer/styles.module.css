@@ -1,0 +1,6 @@
+.footer_main{
+	min-height: 20em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

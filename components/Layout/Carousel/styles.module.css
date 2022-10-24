@@ -1,0 +1,52 @@
+.Carousel_main {
+	position: relative;
+}
+
+.Carousel_control {
+	width: 4em;
+	height: 4em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+	border-radius: 50px;
+	position: absolute;
+	top: 50%;
+	cursor: pointer;
+}
+
+.Carousel_control.left{
+	left: 0;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.Carousel_control.right{
+	right: 0;
+	transform: translate(50%, -50%);
+}
+
+.Carousel_control svg {
+	width: 1.8em;
+	height: auto;
+}
+
+.Carousel_control svg path{
+	fill: var(--primary-blue);
+}
+
+.Carousel_image_array {
+	margin: 1em 0;
+	display: flex;
+	gap: 1em;
+	max-width: 90vw;
+	/* transform: translateX(calc(-50% - 2em)); */
+}
+
+.Carousel_image_container {
+	flex-shrink: 0;
+	border-radius: 5px;
+	overflow: hidden;
+	background: #ffffff99;
+	height: 18em;
+}
