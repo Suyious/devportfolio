@@ -31,7 +31,7 @@ export default function Home() {
 
       <div id="hero" className={styles.hero}>
         <div className={styles.hero_container}>
-          <p className={styles.hero_subtext}>Hi, I'm</p>
+          <p className={styles.hero_subtext}>Hi, I&apos;m</p>
           <h1 className={styles.hero_bigtext}>Suyash K.</h1>
           <ul className={styles.hero_subtext_bottom}>
             <li>developer</li><li>coding enthusiast</li><li>problem solver</li>
@@ -54,7 +54,7 @@ export default function Home() {
       <div id="skills" className={styles.section_main + " " + styles.section_main_skills}>
         <div className={styles.section_container}>
           <h2 className={styles.container_title}>skills</h2>
-          <li className={styles.container_text}>and here are few skills i've acquired</li>
+          <li className={styles.container_text}>and here are few skills i&apos;ve acquired</li>
         </div>
       </div>
 

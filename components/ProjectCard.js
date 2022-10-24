@@ -17,7 +17,7 @@ const ProjectCard = ({
         <div className={styles.Banner_Overlay}>
           <h1>{ProjectName}</h1>
           <button className={styles.Banner_button}>
-            <a href={ProjectLink} target="_blank">
+            <a href={ProjectLink} target="_blank" rel="noreferrer">
               <svg
                 className={styles.Banner_button_svg}
                 width="31"
@@ -63,7 +63,7 @@ const ProjectCard = ({
         </div>
         <div className={styles.Desc_buttons}>
           <button className={styles.Button_Repository}>
-            <a href={ProjectLink} target="_blank">
+            <a href={ProjectLink} target="_blank" rel="noreferrer">
               <svg
                 width="31"
                 height="31"
@@ -82,7 +82,7 @@ const ProjectCard = ({
             </a>
           </button>
           <button className={styles.Button_VisitSite}>
-            <a href={ProjectLink} target="_blank">
+            <a href={ProjectLink} target="_blank" rel="noreferrer">
               <svg
                 width="31"
                 height="31"

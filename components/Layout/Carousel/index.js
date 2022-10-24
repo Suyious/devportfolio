@@ -13,7 +13,7 @@ const Carousel = ({elements, capacity=3}) => {
   useEffect(() => {
     setLeftControl(!(offset === 0));
     setRightControl(!(capacity > elements.length || offset === capacity - elements.length));
-  }, [offset, elements.length])
+  }, [capacity, offset, elements.length])
 
   // direction: next: -1, previous: 1
   const scroll = (direction) => {
