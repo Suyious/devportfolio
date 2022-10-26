@@ -15,7 +15,7 @@ const Carousel = ({elements, capacity=3}) => {
     setRightControl(!(capacity > elements.length || offset === capacity - elements.length));
   }, [capacity, offset, elements.length])
 
-  // direction: next: -1, previous: 1
+  // direction: next: -1, previous: +1
   const scroll = (direction) => {
     // checks boundaries (ensures no out of boundary scroll)
     if(offset + direction < capacity - elements.length || offset + direction > 0){

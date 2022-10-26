@@ -1,13 +1,13 @@
 .app{
   font-family: Montserrat, sans-serif;
-  background: url(../public/Backgroundtile.png), var(--primary-blue) repeat-y;
+  background: url(../public/backgroundtile.png), var(--primary-blue) repeat-y;
   color: #fff;
 }
 
 .hero{
   /* min-height: calc(100vh + 10em); */
   min-height: 100vh;
-  background: url(../public/Background.png), var(--primary-blue);
+  background: url(../public/background.png), var(--primary-blue);
   background-position: center;
   position: relative;
 }
@@ -37,7 +37,7 @@
   font-weight: 900;
   font-size: 1.8em;
   display: flex;
-  gap: 1em;
+  gap: 1.5em;
   justify-content: center;
 }
 

@@ -10,10 +10,10 @@ import Github from "../icons/Github";
 import Link from "next/link"
 import Mail from "../icons/Mail";
 import Carousel from "../components/Layout/Carousel";
+import projects from "../data/projects";
+import {ProjectCard} from "../components/cards/project";
 
 export default function Home() {
-
-  const images = [1, 2, 3, 4, 5];
 
   return (
     <div className={styles.app}>
@@ -21,6 +21,16 @@ export default function Home() {
       <Head>
         <title>Suyash K. | Dev Portfolio</title>
         <meta name="description" content="Suyash Kr. Developer Portfolio" />
+        <meta property="og:title" content="Suyash K. | Dev Portfolio | Web Developer"/>
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="http://suyashk.netlify.app/thumbnail.jpg"/>
+        <meta property="og:url" content="http://suyashk.netlify.app"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta property="og:description" content="Web Developer Portfolio showcasing works by Suyash K."/>
+        <meta property="og:site_name" content="Suyash K. Dev Portfolio"/>
+        <meta name="twitter:image:alt" content="Suyash K. | Dev Portfolio"/>
+        <meta property="fb:app_id" content="suyashk" />
+        <meta name="twitter:site" content="@suyashk"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -34,7 +44,7 @@ export default function Home() {
           <p className={styles.hero_subtext}>Hi, I&apos;m</p>
           <h1 className={styles.hero_bigtext}>Suyash K.</h1>
           <ul className={styles.hero_subtext_bottom}>
-            <li>developer</li><li>coding enthusiast</li><li>problem solver</li>
+            <li>web developer</li><li>programmer</li><li>problem solver</li>
           </ul>
           <div className={styles.hero_calltoaction}>
             <CalltoAction variant="secondary" href="#projects" >more about my work</CalltoAction>
@@ -47,7 +57,7 @@ export default function Home() {
         <div className={styles.section_container}>
           <h2 className={styles.container_title}>projects</h2>
           <li className={styles.container_text}>and here are some of my works</li>
-          <Carousel elements={images}/>
+          <Carousel elements={projects.map((project) => <ProjectCard project={project}/>)}/>
         </div>
       </div>
 
