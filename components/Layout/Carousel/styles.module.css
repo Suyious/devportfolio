@@ -13,6 +13,7 @@
 	position: absolute;
 	top: 50%;
 	cursor: pointer;
+	box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.27);
 }
 
 .Carousel_control.left{
@@ -47,6 +48,8 @@
 	flex-shrink: 0;
 	border-radius: 5px;
 	overflow: hidden;
-	background: #ffffff99;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	height: 18em;
 }

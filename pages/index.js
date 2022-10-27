@@ -11,7 +11,8 @@ import Link from "next/link"
 import Mail from "../icons/Mail";
 import Carousel from "../components/Layout/Carousel";
 import projects from "../data/projects";
-import {ProjectCard} from "../components/cards/project";
+import ProjectCard from "../components/cards/project";
+import { skills } from "../data/skills";
 
 export default function Home() {
 
@@ -21,10 +22,11 @@ export default function Home() {
       <Head>
         <title>Suyash K. | Dev Portfolio</title>
         <meta name="description" content="Suyash Kr. Developer Portfolio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta property="og:title" content="Suyash K. | Dev Portfolio | Web Developer"/>
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="http://suyashk.netlify.app/thumbnail.jpg"/>
-        <meta property="og:url" content="http://suyashk.netlify.app"/>
+        <meta property="og:image" content="https://suyashk.netlify.app/thumbnail.jpg"/>
+        <meta property="og:url" content="https://suyashk.netlify.app"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta property="og:description" content="Web Developer Portfolio showcasing works by Suyash K."/>
         <meta property="og:site_name" content="Suyash K. Dev Portfolio"/>
@@ -56,15 +58,16 @@ export default function Home() {
       <div id="projects" className={styles.section_main}>
         <div className={styles.section_container}>
           <h2 className={styles.container_title}>projects</h2>
-          <li className={styles.container_text}>and here are some of my works</li>
-          <Carousel elements={projects.map((project, i) => <ProjectCard key={i} project={project}/>)}/>
+          <p className={styles.container_text}>-and here are some of my works</p>
+          <Carousel elements={ projects.map((project, i) => <ProjectCard key={i} project={project}/>) }/>
         </div>
       </div>
 
       <div id="skills" className={styles.section_main + " " + styles.section_main_skills}>
         <div className={styles.section_container}>
           <h2 className={styles.container_title}>skills</h2>
-          <li className={styles.container_text}>and here are few skills i&apos;ve acquired</li>
+          <p className={styles.container_text}>- and here are few skills i&apos;ve acquired</p>
+          <Carousel elements={skills.map((Skill, i) => <Skill key={i}/>)} capacity={7} />
         </div>
       </div>
 
@@ -82,7 +85,10 @@ export default function Home() {
               <a target="_blank" title="LinkedIn" className={styles.app_footer_link}><LinkedIn/></a>
             </Link>
           </div>
-          <CalltoAction variant="secondary" href="mailto:suyu162001@gmail.com" pad={3}><span className={styles.footer_calltoaction_text}>get in touch</span><Mail size={17}/></CalltoAction>
+          <CalltoAction variant="secondary" href="mailto:suyu162001@gmail.com" pad={3}>
+            <span className={styles.footer_calltoaction_text}>get in touch</span>
+            <Mail size={17}/>
+          </CalltoAction>
         </div>
       </Footer>
 
