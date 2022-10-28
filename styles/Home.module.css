@@ -44,6 +44,8 @@
 .hero_calltoaction{
 	display: flex;
 	justify-content: flex-end;
+	gap: 1em;
+	padding: 0.5em 0;
 }
 
 .section_main{
@@ -96,6 +98,7 @@
 
  .app_footer_links{
 	 margin-top: 2em;
+	 margin-bottom: 1em;
 	 display: flex;
 	 align-items: center;
 	 justify-content: space-evenly;

@@ -53,3 +53,13 @@
 	justify-content: center;
 	height: 18em;
 }
+
+@media all and (max-width: 720px){
+	.Carousel_image_array {
+		flex-direction: column;
+	}
+
+	.Carousel_control {
+		display: none;
+	}
+}

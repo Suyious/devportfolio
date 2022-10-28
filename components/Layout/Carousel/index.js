@@ -1,14 +1,28 @@
 import styles from "./styles.module.css"
 import Previous from "../../../icons/Previous"
 import Next from "../../../icons/Next"
-import {useEffect, useState} from "react"
+import {useEffect, useLayoutEffect, useState} from "react"
 
-const Carousel = ({elements, capacity=3}) => {
+const Carousel = ({elements, capacity: desired_capacity=3}) => {
 
+  const [capacity, setCapacity] = useState(desired_capacity);
   const [transform, setTransform] = useState(0);
   const [offset, setOffset] = useState(0);
   const [leftControl, setLeftControl] = useState(true);
   const [rightControl, setRightControl] = useState(true);
+
+  const resizeHandler = () => {
+    if(window.innerWidth < 720) setCapacity(1);
+    else if(window.innerWidth < 1200) setCapacity(2);
+    else setCapacity(desired_capacity);
+  }
+
+  useLayoutEffect(() => {
+    window.addEventListener('resize', resizeHandler);
+    return () => {
+      window.removeEventListener('resize', resizeHandler);
+    }
+  }, [])
 
   useEffect(() => {
     setLeftControl(!(offset === 0));

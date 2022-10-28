@@ -13,10 +13,18 @@
 	width: 100%;
 	align-items: center;
 	justify-content: space-between;
-	padding-inline: 1em;
+	padding: 1em;
 	gap: 1em;
+	flex-wrap: wrap;
 }
 
 .repository_botton_text {
 	margin-right: 0.5em;
+}
+
+@media all and (max-width: 480px) {
+	.project_card_buttons {
+		gap: 0;
+		font-size: 0.9em;
+	}
 }
