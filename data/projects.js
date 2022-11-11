@@ -5,7 +5,7 @@ const projects = [
     tags: ["react", "css", "javascript"],
     repository: "https://github.com/suyious/fraise",
     url: "https://suyious.github.io/fraise",
-    image: "https://suyious.github.io/fraise/OG-IMAGE.jpg"
+    image: "https://fraise.netlify.app/OG-IMAGE.jpg"
   },
   {
     _id: 2,
