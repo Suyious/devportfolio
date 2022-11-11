@@ -18,12 +18,11 @@ const Carousel = ({elements, capacity: desired_capacity=3}) => {
   }
 
   useEffect(() => {
-    resizeHandler();
     window.addEventListener('resize', resizeHandler);
     return () => {
       window.removeEventListener('resize', resizeHandler);
     }
-  }, [resizeHandler])
+  }, [])
 
   useEffect(() => {
     setLeftControl(!(offset === 0));
