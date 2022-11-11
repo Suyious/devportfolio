@@ -1,7 +1,7 @@
 import styles from "./styles.module.css"
 import Previous from "../../../icons/Previous"
 import Next from "../../../icons/Next"
-import {useEffect, useState} from "react"
+import {useEffect, useState, useCallback} from "react"
 
 const Carousel = ({elements, capacity: desired_capacity=3}) => {
 
@@ -11,11 +11,11 @@ const Carousel = ({elements, capacity: desired_capacity=3}) => {
   const [leftControl, setLeftControl] = useState(true);
   const [rightControl, setRightControl] = useState(true);
 
-  const resizeHandler = useCallback( () => {
+  const resizeHandler = useCallback(() => {
     if(window.innerWidth < 720) setCapacity(1);
     else if(window.innerWidth < 1200) setCapacity(2);
     else setCapacity(desired_capacity);
-  } )
+  }, [desired_capacity])
 
   useEffect(() => {
     resizeHandler();
