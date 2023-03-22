@@ -15,6 +15,14 @@ const projects = [
     url: "https://xetra.netlify.app",
     image: "https://xetra.netlify.app/OG-IMAGE.jpg"
   },
+  {
+    _id: 3,
+    title: "Netlify | Tho Not Really",
+    tags: ["react", "css", "javascript"],
+    repository: "https://github.com/Suyious/Netflix-clone",
+    url: "https://netflixclonedui.netlify.app/",
+    image: "https://netflixclonedui.netlify.app/OG-IMAGE.jpg",
+  }
 ]
 
 export default projects;
