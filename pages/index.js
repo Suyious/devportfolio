@@ -76,13 +76,13 @@ export default function Home() {
           <h2 className={styles.app_footer_title}>contact me</h2>
           <div className={styles.app_footer_links}>
             <Link href="https://instagram.com/suy.yes/">
-              <a target="_blank" title="Instagram" className={styles.app_footer_link}><Instagram/></a>
+              <div target="_blank" title="Instagram" className={styles.app_footer_link}><Instagram/></div>
             </Link>
             <Link href="https://github.com/suyious">
-              <a target="_blank" title="Github" className={styles.app_footer_link}><Github/></a>
+              <div target="_blank" title="Github" className={styles.app_footer_link}><Github/></div>
             </Link>
             <Link href="https://linkedin.com/in/suyash1621/">
-              <a target="_blank" title="LinkedIn" className={styles.app_footer_link}><LinkedIn/></a>
+              <div target="_blank" title="LinkedIn" className={styles.app_footer_link}><LinkedIn/></div>
             </Link>
           </div>
           <CalltoAction variant="secondary" href="mailto:suyu162001@gmail.com" pad={3}>

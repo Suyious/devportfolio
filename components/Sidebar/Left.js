@@ -10,13 +10,13 @@ const Left = () => {
       <div className={styles.Sidebar_wrapper}>
         <div className={styles.Sidebar_links}>
           <Link href="https://instagram.com/suy.yes/">
-            <a target="_blank" title="Instagram" className={styles.Sidebar_link}><Instagram/></a>
+            <div target="_blank" title="Instagram" className={styles.Sidebar_link}><Instagram/></div>
           </Link>
           <Link href="https://github.com/suyious">
-            <a target="_blank" title="Github" className={styles.Sidebar_link}><Github/></a>
+            <div target="_blank" title="Github" className={styles.Sidebar_link}><Github/></div>
           </Link>
           <Link href="https://linkedin.com/in/suyash1621/">
-            <a target="_blank" title="LinkedIn" className={styles.Sidebar_link}><LinkedIn/></a>
+            <div target="_blank" title="LinkedIn" className={styles.Sidebar_link}><LinkedIn/></div>
           </Link>
         </div>
       </div>

@@ -8,7 +8,7 @@ const Left = () => {
         <div className={styles.Sidebar_wrapper}>
           <div className={styles.Sidebar_links}>
             <Link href="mailto:suyu162001@gmail.com">
-              <a title="Email" className={styles.Sidebar_link}><Mail/></a>
+              <div title="Email" className={styles.Sidebar_link}><Mail/></div>
             </Link>
           </div>
         </div>
