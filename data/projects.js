@@ -22,6 +22,14 @@ const projects = [
     repository: "https://github.com/Suyious/Netflix-clone",
     url: "https://netflixclonedui.netlify.app/",
     image: "https://netflixclonedui.netlify.app/OG-IMAGE.jpg",
+  },
+  {
+    _id: 4,
+    title: "BCSP064 | Mock Test Conducting System",
+    tags: ["react", "css", "javascript"],
+    repository: "https://github.com/Suyious/GradProjectClientMVP/",
+    url: "https://bcsp064.netlify.app/",
+    image: "https://bcsp064.netlify.app/OG-IMAGE.jpg",
   }
 ]
 

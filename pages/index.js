@@ -58,7 +58,7 @@ export default function Home() {
       <div id="projects" className={styles.section_main}>
         <div className={styles.section_container}>
           <h2 className={styles.container_title}>projects</h2>
-          <p className={styles.container_text}>-and here are some of my works</p>
+          <p className={styles.container_text}>- and here are some of my works</p>
           <Carousel elements={ projects.map((project, i) => <ProjectCard key={i} project={project}/>) }/>
         </div>
       </div>
