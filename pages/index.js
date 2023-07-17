@@ -25,8 +25,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta property="og:title" content="Suyash K. | Dev Portfolio | Web Developer"/>
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://suyashk.netlify.app/thumbnail.jpg"/>
-        <meta property="og:url" content="https://suyashk.netlify.app"/>
+        <meta property="og:image" content="/OG-IMAGE.jpg"/>
+        <meta property="og:url" content="https://suyashk.vercel.app"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta property="og:description" content="Web Developer Portfolio showcasing works by Suyash K."/>
         <meta property="og:site_name" content="Suyash K. Dev Portfolio"/>

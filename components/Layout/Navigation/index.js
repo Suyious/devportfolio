@@ -15,8 +15,8 @@ const Navbar = () => {
         </div>
         <div className={`${ styles.click_to_exit } ${ nav_active ? styles.active : "" }`} onClick={() => setNav_active(false)}/>
         <div className={`${ styles.nav_links } ${ nav_active ? styles.active : "" }`}>
-          <Link href="#projects"><div onClick={() => setNav_active(false)} className={styles.nav_link}>projects</div></Link>
-          <Link href="#developer"><div onClick={() => setNav_active(false)} className={styles.nav_link}>developer</div></Link>
+          <Link href="/#projects"><div onClick={() => setNav_active(false)} className={styles.nav_link}>projects</div></Link>
+          <Link href="/developer/"><div onClick={() => setNav_active(false)} className={styles.nav_link}>developer</div></Link>
         </div>
       </div>
     </div>

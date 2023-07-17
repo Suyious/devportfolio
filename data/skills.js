@@ -1,6 +1,7 @@
 import Html from "../icons/skills/Html";
 import Css from "../icons/skills/Css";
 import Javascript from "../icons/skills/Javascript";
+import Typescript from "../icons/skills/Typescript";
 import ReactIcon from "../icons/skills/ReactIcon";
 import NextIcon from "../icons/skills/NextIcon";
 import NodeIcon from "../icons/skills/NodeIcon";
@@ -15,14 +16,15 @@ import PythonIcon from "../icons/skills/PythonIcon";
 import GraphQL from "../icons/skills/GraphQL";
 
 export const skills = [
-  Html,
-  Css,
-  Javascript,
   ReactIcon,
   NextIcon,
   NodeIcon,
-  MongoDB,
   Express,
+  Typescript,
+  Javascript,
+  Html,
+  Css,
+  MongoDB,
   GraphQL,
   VersionControl,
   GitIcon,
