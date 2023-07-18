@@ -1,5 +1,6 @@
 .developer_container {
-    max-width: 60vw;
+    max-width: 80vw;
+    width: 1080px;
     margin: 0 auto;
     padding-top: 5em;
     min-height: 100vh;
@@ -36,4 +37,21 @@
 
 .developer_description {
     font-size: 1.3em;
+}
+
+@media all and (max-width: 870px) {
+    .developer_title_name {
+        font-size: 4em;
+    }
+    .developer_title_subtitle {
+        font-size: 1.5em;
+    }
+}
+
+@media all and (max-width: 720px){
+    .developer_header {
+        flex-direction: column-reverse;
+        gap: 2em;
+        align-items: center;
+    }
 }

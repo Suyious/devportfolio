@@ -6,7 +6,7 @@ import Navbar from "../components/Layout/Navigation/";
 function MyApp({Component, pageProps}) {
   return <>
     <Navbar/>
-    <div>
+    <div className='sidebar_main'>
       <LeftSidebar/>
       <RightSidebar/>
     </div>

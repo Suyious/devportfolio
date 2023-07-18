@@ -159,11 +159,6 @@
 }
 
 @media all and (max-width: 720px){
-
-	 .Sidebars_main {
-		 display: none;
-	 }
-
 	 .hero_bigtext{
 		 font-size: 4em;
 	 }
