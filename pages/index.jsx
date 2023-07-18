@@ -1,7 +1,5 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import LeftSidebar from "../components/Sidebar/Left";
-import RightSidebar from "../components/Sidebar/Right";
 import CalltoAction from "../components/Layout/Buttons/CalltoAction";
 import Footer from "../components/Layout/Footer";
 import LinkedIn from "../icons/LinkedIn";
@@ -36,11 +34,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={styles.Sidebars_main}>
-        <LeftSidebar/>
-        <RightSidebar/>
-      </div>
-
       <div id="hero" className={styles.hero}>
         <div className={styles.hero_container}>
           <p className={styles.hero_subtext}>Hi, I&apos;m</p>
@@ -50,7 +43,7 @@ export default function Home() {
           </ul>
           <div className={styles.hero_calltoaction}>
             <CalltoAction variant="secondary" href="#projects" >more about my work</CalltoAction>
-            <CalltoAction variant="secondary" href="/">more about me</CalltoAction>
+            <CalltoAction variant="secondary" href="/developer/">more about me</CalltoAction>
           </div>
         </div>
       </div>
@@ -67,7 +60,7 @@ export default function Home() {
         <div className={styles.section_container}>
           <h2 className={styles.container_title}>skills</h2>
           <p className={styles.container_text}>- and here are few skills i&apos;ve acquired</p>
-          <Carousel elements={skills.map((Skill, i) => <Skill key={i}/>)} capacity={7} />
+          <Carousel elements={skills.map((skill, i) => <div className={styles.skills_wrapper} key={i} title={skill.label}><skill.component/></div>)} capacity={7} />
         </div>
       </div>
 

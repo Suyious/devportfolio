@@ -1,0 +1,39 @@
+.developer_container {
+    max-width: 60vw;
+    margin: 0 auto;
+    padding-top: 5em;
+    min-height: 100vh;
+}
+
+.developer_header {
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.developer_header_left_links {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.developer_title_name {
+    font-size: 5em;
+}
+
+.developer_title_subtitle {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.developer_header_image_container {
+    width: 20em;
+    border: 1px solid #fff;
+    border-radius: 50em;
+    overflow: hidden;
+}
+
+.developer_description {
+    font-size: 1.3em;
+}

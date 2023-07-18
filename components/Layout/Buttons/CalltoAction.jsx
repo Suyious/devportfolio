@@ -10,7 +10,7 @@ const CalltoAction = ({href, children, variant, pad=1.5, title=""}) => {
 
   return (
     <div className={styles.calltoAction_main + " calltoAction_pad " + variants[variant]}>
-      <Link href={href}>
+      <Link scroll={false} href={href}>
         <div className={styles.calltoAction_link} title={title}>{children}</div>
       </Link>
       <style jsx>{`

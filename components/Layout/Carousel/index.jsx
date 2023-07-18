@@ -12,8 +12,8 @@ const Carousel = ({elements, capacity: desired_capacity=3}) => {
   const [rightControl, setRightControl] = useState(true);
 
   const resizeHandler = useCallback(() => {
-    if(window.innerWidth < 720) setCapacity(1);
-    else if(window.innerWidth < 1200) setCapacity(2);
+    if(window.innerWidth <= 810) setCapacity(1);
+    else if(window.innerWidth <= 1200) setCapacity(2);
     else setCapacity(desired_capacity);
   }, [desired_capacity])
 

@@ -12,7 +12,7 @@
 .calltoAction_main.primary {
 	border: 4px solid white;
 	background: #fff;
-	color: var(--primary-blue);
+	color: var(--primary-background);
 }
 
 .calltoAction_main.primary:hover {
@@ -20,7 +20,7 @@
 }
 
 .calltoAction_main.primary svg path{
-	fill: var(--primary-blue);
+	fill: var(--primary-background);
 }
 
 .calltoAction_main.secondary{
@@ -30,9 +30,9 @@
 
 .calltoAction_main.secondary:hover{
 	background: #fff;
-	color: var(--primary-blue);
+	color: var(--primary-background);
 }
 
 .calltoAction_main.secondary:hover svg path{
-	fill: var(--primary-blue);
+	fill: var(--primary-background);
 }

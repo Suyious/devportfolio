@@ -25,6 +25,7 @@
 .Carousel_control.right{
 	right: 0;
 	transform: translate(50%, -50%);
+	z-index: 1;
 }
 
 .Carousel_control svg {
@@ -33,7 +34,7 @@
 }
 
 .Carousel_control svg path{
-	fill: var(--primary-blue);
+	fill: var(--primary-background);
 }
 
 .Carousel_image_array {
@@ -51,7 +52,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 18em;
 }
 
 @media all and (max-width: 720px){

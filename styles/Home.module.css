@@ -1,13 +1,13 @@
 .app{
   font-family: Montserrat, sans-serif;
-  background: url(../public/backgroundtile.png), var(--primary-blue) repeat-y;
+  background: url(../public/backgroundtile.png), var(--primary-background) repeat-y;
   color: #fff;
 }
 
 .hero{
   /* min-height: calc(100vh + 10em); */
   min-height: 100vh;
-  background: url(../public/background.png), var(--primary-blue);
+  background: url(../public/background.png), var(--primary-background);
   background-position: center;
   position: relative;
 }
@@ -68,10 +68,10 @@
 }
 
 .container_text{
-  font-weight: 900;
-  font-size: 1.3em;
+  font-weight: 400;
+  font-size: 1.1em;
   position: relative;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5em;
 }
 
 .container_text::after {
@@ -158,7 +158,7 @@
 	 }
 }
 
-@media all and (max-width: 710px){
+@media all and (max-width: 720px){
 
 	 .Sidebars_main {
 		 display: none;
@@ -192,4 +192,9 @@
 	 .section_main_skills {
 		 display: none;
 	 }
+ }
+
+
+ .skills_wrapper > * {
+	width: 100%;
  }

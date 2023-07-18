@@ -15,7 +15,7 @@ const Left = () => {
           <Link href="https://github.com/suyious">
             <div target="_blank" title="Github" className={styles.Sidebar_link}><Github/></div>
           </Link>
-          <Link href="https://linkedin.com/in/suyash1621/">
+          <Link href="https://linkedin.com/in/suyious/">
             <div target="_blank" title="LinkedIn" className={styles.Sidebar_link}><LinkedIn/></div>
           </Link>
         </div>
