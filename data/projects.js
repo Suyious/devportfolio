@@ -30,6 +30,14 @@ const projects = [
     repository: "https://github.com/Suyious/GradProjectClientMVP/",
     url: "https://bcsp064.netlify.app/",
     image: "https://bcsp064.netlify.app/OG-IMAGE.jpg",
+  },
+  {
+    _id: 5,
+    title: "Othello | Task Management Tool ",
+    tags: ["angular", "css", "javascript"],
+    repository: "https://github.com/Suyious/Othello",
+    url: "https://oth.netlify.app/",
+    image: "https://oth.netlify.app/assets/OG-IMAGE.jpg",
   }
 ]
 
