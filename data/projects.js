@@ -1,14 +1,22 @@
 const projects = [
   {
     _id: 1,
+    title: "Purrr.chat | Random Stranger Chat",
+    tags: ["nextjs", "css", "typescript", "node.js", "express", "websocket"],
+    repository: "https://github.com/suyious/purrr.frontend",
+    url: "https://www.purrr.chat/",
+    image: "https://www.purrr.chat/opengraph-image.jpg"
+  },
+  {
+    _id: 2,
     title: "Fraise | Read and Write Blogs",
-    tags: ["react", "css", "javascript"],
+    tags: ["react", "css", "javascript", "express", "node.js"],
     repository: "https://github.com/suyious/fraise",
     url: "https://suyious.github.io/fraise",
     image: "https://fraise.netlify.app/OG-IMAGE.jpg"
   },
   {
-    _id: 2,
+    _id: 3,
     title: "Xetra | Fashion One Stop",
     tags: ["react", "css", "javascript"],
     repository: "https://github.com/suyious/xetra",
@@ -16,15 +24,15 @@ const projects = [
     image: "https://xetra.netlify.app/OG-IMAGE.jpg"
   },
   {
-    _id: 3,
-    title: "Netlify | Tho Not Really",
-    tags: ["react", "css", "javascript"],
-    repository: "https://github.com/Suyious/Netflix-clone",
-    url: "https://netflixclonedui.netlify.app/",
-    image: "https://netflixclonedui.netlify.app/OG-IMAGE.jpg",
+    _id: 4,
+    title: "Gitpdf | Turn Github Repository to PDF",
+    tags: ["flask", "css", "python"],
+    repository: "https://github.com/Suyious/gitpdf",
+    url: "https://gitpdf.onrender.com/",
+    image: "https://gitpdf.onrender.com/OG-IMAGE.jpg",
   },
   {
-    _id: 4,
+    _id: 5,
     title: "BCSP064 | Mock Test Conducting System",
     tags: ["react", "css", "javascript"],
     repository: "https://github.com/Suyious/GradProjectClientMVP/",
@@ -32,7 +40,7 @@ const projects = [
     image: "https://bcsp064.netlify.app/OG-IMAGE.jpg",
   },
   {
-    _id: 5,
+    _id: 6,
     title: "Othello | Task Management Tool ",
     tags: ["angular", "css", "javascript"],
     repository: "https://github.com/Suyious/Othello",
