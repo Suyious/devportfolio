@@ -4,6 +4,10 @@ module.exports = {
     remotePatterns: [
       {
         protocol: 'https',
+        hostname: 'raw.githubusercontent.com',
+      },
+      {
+        protocol: 'https',
         hostname: 'gitpdf.onrender.com',
       },
       {

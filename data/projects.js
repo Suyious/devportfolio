@@ -29,7 +29,7 @@ const projects = [
     tags: ["flask", "css", "python"],
     repository: "https://github.com/Suyious/gitpdf",
     url: "https://gitpdf.onrender.com/",
-    image: "https://gitpdf.onrender.com/OG-IMAGE.jpg",
+    image: "https://raw.githubusercontent.com/Suyious/gitpdf/refs/heads/master/static/OG-IMAGE.jpg",
   },
   {
     _id: 5,
