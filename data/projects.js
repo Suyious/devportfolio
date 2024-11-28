@@ -15,14 +15,14 @@ const projects = [
     url: "https://suyious.github.io/fraise",
     image: "https://fraise.netlify.app/OG-IMAGE.jpg"
   },
-  {
-    _id: 3,
-    title: "Xetra | Fashion One Stop",
-    tags: ["react", "css", "javascript"],
-    repository: "https://github.com/suyious/xetra",
-    url: "https://xetra.netlify.app",
-    image: "https://xetra.netlify.app/OG-IMAGE.jpg"
-  },
+  // {
+  //   _id: 3,
+  //   title: "Xetra | Fashion One Stop",
+  //   tags: ["react", "css", "javascript"],
+  //   repository: "https://github.com/suyious/xetra",
+  //   url: "https://xetra.netlify.app",
+  //   image: "https://xetra.netlify.app/OG-IMAGE.jpg"
+  // },
   {
     _id: 4,
     title: "Gitpdf | Turn Github Repository to PDF",
