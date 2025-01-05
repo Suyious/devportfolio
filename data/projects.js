@@ -9,6 +9,14 @@ const projects = [
   },
   {
     _id: 2,
+    title: "Colloquial | Minimalist Social Media",
+    tags: ["nextjs", "css", "typescript", "node.js", "express", "websocket"],
+    repository: "https://github.com/suyious/colloquial",
+    url: "https://colloquial.vercel.app/",
+    image: "https://colloquial.vercel.app/OG-IMAGE.jpg"
+  },
+  {
+    _id: 3,
     title: "Fraise | Read and Write Blogs",
     tags: ["react", "css", "javascript", "express", "node.js"],
     repository: "https://github.com/suyious/fraise",

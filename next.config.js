@@ -8,7 +8,11 @@ module.exports = {
       },
       {
         protocol: 'https',
-        hostname: 'gitpdf.onrender.com',
+        hostname: '**.onrender.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.vercel.app',
       },
       {
         protocol: 'https',
