@@ -4,8 +4,8 @@ const projects = [
     title: "Purrr.chat | Random Stranger Chat",
     tags: ["nextjs", "css", "typescript", "node.js", "express", "websocket"],
     repository: "https://github.com/suyious/purrr.frontend",
-    url: "https://www.purrr.chat/",
-    image: "https://www.purrr.chat/opengraph-image.jpg"
+    url: "https://purrr-chat.vercel.app/",
+    image: "https://purrr-chat.vercel.app/opengraph-image.jpg"
   },
   {
     _id: 2,
