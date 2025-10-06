@@ -2,21 +2,27 @@
     max-width: 80vw;
     width: 1080px;
     margin: 0 auto;
-    padding-top: 5em;
+    padding-top: 10em;
     min-height: 100vh;
 }
 
 .developer_header {
-    margin-bottom: 2em;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 2em;
 }
 
-.developer_header_left_links {
+.developer_header_links {
+    margin-top: 2em;
     display: flex;
     gap: 1em;
     align-items: center;
+}
+
+.developer_title_pre {
+    font-size: 2em;
 }
 
 .developer_title_name {
@@ -36,15 +42,22 @@
 }
 
 .developer_description {
+    margin-top: 1em;
     font-size: 1.3em;
 }
 
 @media all and (max-width: 870px) {
+    .developer_title_pre {
+        font-size: 1.5em;
+    }
     .developer_title_name {
-        font-size: 4em;
+        font-size: 3em;
     }
     .developer_title_subtitle {
-        font-size: 1.5em;
+        font-size: 1.3em;
+    }
+    .developer_description {
+        font-size: 1em;
     }
 }
 

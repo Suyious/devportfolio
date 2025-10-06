@@ -28,14 +28,16 @@ const DeveloperPage = () => {
       <main className={styles.developer_main}>
          <header className={styles.developer_header}>
             <div className={styles.developer_header_left}>
-               <div className={styles.developer_header_left_links}>
+               <h2 className={styles.developer_title_pre}>Hi, I&apos;m</h2>
+               <h1 className={styles.developer_title_name}>Suyash Kumar</h1>
+               <h3 className={styles.developer_title_subtitle}>Web Developer specializing in React</h3>
+               <p className={styles.developer_description}>Motivated and skilled <b>web developer</b>, specializing in frontend development in <b>React</b> with a strong interest in <b>UI/UX design</b>. Seeking an entry-level position to kickstart my career and contribute to the development of innovative web applications. Eager to learn and grow within a dynamic and collaborative team environment.</p>
+               <div className={styles.developer_header_links}>
                   <Github/>
                   <Link href="https://github.com/suyious">@Suyious</Link>
                   <LinkedIn/>
                   <Link href="https://linkedin.com/in/suyious">@Suyious</Link>
                </div>
-               <h1 className={styles.developer_title_name}>Suyash Kumar</h1>
-               <h3 className={styles.developer_title_subtitle}>Web Developer specializing in React</h3>
             </div>
             <div className={styles.developer_header_right}>
                <div className={styles.developer_header_image_container}>
@@ -46,7 +48,6 @@ const DeveloperPage = () => {
             </div>
          </header>
 
-         <p className={styles.developer_description}>Motivated and skilled <b>web developer</b>, specializing in frontend development in <b>React</b> with a strong interest in <b>UI/UX design</b>. Seeking an entry-level position to kickstart my career and contribute to the development of innovative web applications. Eager to learn and grow within a dynamic and collaborative team environment.</p>
       </main>
     </div>
    )
